@@ -40,7 +40,7 @@ const uint8_t letters[][5] = {
 uint8_t get_char_index(char c) {
   if (c >= 'a' && c <= 'z') {
     return c - 'a';
-  } else if (c >= 'A' && c <= 'A') {
+  } else if (c >= 'A' && c <= 'Z') {
     return c - 'A';
   } else {
     return 26; // Space for everything else
